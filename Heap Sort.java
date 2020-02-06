@@ -2,20 +2,20 @@ import java.util.*;
 public class Main
 {
     public static void main(String[] args) {
-                       System.out.println("enter size of array");
-	    Scanner sc=new Scanner(System.in);
-	    int size=sc.nextInt();
+    System.out.println("enter size of array");
+    Scanner sc=new Scanner(System.in);
+    int size=sc.nextInt();
 	   
-        int inputArray[]=new int[size];
-        System.out.println("enter elements of array");
-        for(int i=0;i<size;i++)
-             inputArray[i]=sc.nextInt();
+    int inputArray[]=new int[size];
+    System.out.println("enter elements of array");
+    for(int i=0;i<size;i++)
+         inputArray[i]=sc.nextInt();
              
-        HeapSort obj = new HeapSort(); 
-        obj.sort(inputArray,size); 
+     HeapSort obj = new HeapSort(); 
+     obj.sort(inputArray,size); 
   
-        System.out.println("Sorted array is"); 
-        obj.printArray(inputArray); 
+      System.out.println("Sorted array is"); 
+      obj.printArray(inputArray); 
     }
 }
 
