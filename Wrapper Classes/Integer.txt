@@ -1,0 +1,54 @@
+Java.lang.Integer class is a wrapper class for the primitive type int.
+
+Methods defined in Integer class:-
+
+1.toString() : Returns the string corresponding to the int value.
+               syntax: public String toString(int val)
+
+2.valueOf() :  Returns the Integer object initialised with the value provided   
+               a)syntax : public static Integer valueOf(int b) 
+               b)syntax:  public static Integer valueOf(String s)throws NumberFormatException          
+
+3.parseInt():  Returns int value by parsing the string. 
+               syntax: public static int parseInt(String val)throws NumberFormatException 
+
+4.getInteger() : Returns the Integer object representing the value associated with the given system property or null if it   
+                 does not exist.
+                 Syntax : public static Integer getInteger(String prop)
+
+5.byteValue() : Returns a byte value corresponding to this Integer Object.
+                Syntax : public byte byteValue()
+
+6.shortValue() : Returns a short value corresponding to this Integer Object.
+                 Syntax : public short shortValue()
+
+7.intValue() : Returns a int value corresponding to this Integer Object.
+               Syntax : public int intValue()
+
+8.longValue() : Returns a long value corresponding to this Integer Object.
+                Syntax : public long longValue()
+
+9.doubleValue() : Returns a double value corresponding to this Integer Object.
+                  Syntax : public double doubleValue()
+
+10.floatValue() : Returns a float value corresponding to this Integer Object.
+                  Syntax : public float floatValue()  
+
+11.equals() : Used to compare the equality of two Integer objects. This methods returns true if both the 
+              objects contains same int value
+              syntax: public boolean equals(Object obj)
+
+12.compareTo() : Used to compare two Integer objects for numerical equality.Returns a value less than 0,0,value greater
+                 than 0 for less than,equal to and greater than respectively
+                 Syntax : public int compareTo(Integer b)
+
+13.compare() : Used to compare two primitive int values for numerical equality.
+               Syntax : public static int compare(int x,int y) 
+
+14.signum() : Returns -1 for negative values, 0 for 0 and +1 for values greater than 0.
+              Syntax : public static int signum(int val)
+
+
+
+
+ 
