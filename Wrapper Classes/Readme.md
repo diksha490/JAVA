@@ -12,15 +12,15 @@ A Wrapper class is a class whose object wraps primitive data types.
 
 ## Primitive Data types and their Corresponding Wrapper class
 
- Primitive Data Type	Wrapper Class
- byte	                Byte
- short	                Short
- int	                Integer
- long	                Long
- float	                Float
- double	                Double
- boolean	            Boolean
- char	                Character
+ 
+ byte->              Byte
+ short->                Short
+ int->	                Integer
+ long->	                Long
+ float->	                Float
+ double->                Double
+ boolean->	            Boolean
+ char->	                Character
 
 
 ## Autoboxing
